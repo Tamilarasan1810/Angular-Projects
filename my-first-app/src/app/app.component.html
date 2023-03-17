@@ -1,2 +1,16 @@
-<input type="text" [(ngModel)]="name" />
-<p>{{ name }}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div>
+        <h3>App Component</h3>
+        <input type="text" [(ngModel)]="name" />
+        <p>{{ name }}</p>
+      </div>
+      <hr />
+      <div>
+        <h3>Server Component</h3>
+        <app-servers></app-servers>
+      </div>
+    </div>
+  </div>
+</div>
